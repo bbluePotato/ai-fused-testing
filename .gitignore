@@ -40,7 +40,7 @@ env/
 .env.*.local
 
 # Test Reports
-reports/
+reports/*
 !reports/.gitkeep
 allure-results/
 allure-report/
@@ -51,11 +51,11 @@ htmlcov/
 
 # Logs
 *.log
-logs/
+logs/*
 !logs/.gitkeep
 
 # Screenshots
-screenshots/
+screenshots/*
 !screenshots/.gitkeep
 
 # Playwright
