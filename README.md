@@ -634,8 +634,8 @@ mypy .
 
 - **作者**: YSC
 - **邮箱**: ******
-- **项目地址**: https://github.com/******/ui-ai-automation
-- **问题反馈**: https://github.com/******/ui-ai-automation/issues
+- **项目地址**: https://github.com/bbluePotato/ai-fused-testing
+- **问题反馈**: https://github.com/bbluePotato/ai-fused-testing/issues
 
 ---
 
@@ -643,6 +643,6 @@ mypy .
 
 **如果这个项目对你有帮助，请给一个 ⭐️ Star！**
 
-Made with ❤️ by YOUR_NAME
+Made with ❤️ by bbluePotato
 
 </div>
