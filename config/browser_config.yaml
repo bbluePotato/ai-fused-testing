@@ -1,0 +1,55 @@
+# 浏览器配置文件
+
+# 默认浏览器配置
+default:
+  browser: chromium  # 可选: chromium, firefox, webkit
+  headless: false    # 是否无头模式
+  slow_mo: 0         # 慢动作延迟(毫秒)
+  viewport:
+    width: 1920
+    height: 1080
+  # 其他浏览器参数
+  args:
+    - "--no-sandbox"
+    - "--disable-dev-shm-usage"
+    - "--disable-gpu"
+
+# Chrome配置
+chromium:
+  browser: chromium
+  headless: false
+  slow_mo: 0
+  viewport:
+    width: 1920
+    height: 1080
+
+# Firefox配置
+firefox:
+  browser: firefox
+  headless: false
+  slow_mo: 0
+  viewport:
+    width: 1920
+    height: 1080
+
+# Edge配置(使用chromium)
+edge:
+  browser: chromium
+  channel: msedge
+  headless: false
+  slow_mo: 0
+  viewport:
+    width: 1920
+    height: 1080
+
+# CI/CD环境配置(无头模式)
+ci:
+  browser: chromium
+  headless: true
+  slow_mo: 0
+  viewport:
+    width: 1920
+    height: 1080
+  args:
+    - "--no-sandbox"
+    - "--disable-dev-shm-usage"

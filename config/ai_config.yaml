@@ -1,0 +1,42 @@
+# AI Agent配置文件
+
+# AI模型配置
+model:
+  # 模型提供商: zhipu(智谱), openai, azure等
+  provider: zhipu
+  # 模型名称
+  model_name: glm-4
+  # API密钥(实际使用时从环境变量读取或加密存储)
+  api_key: ${AI_API_KEY}
+  # API基础URL
+  base_url: "https://open.bigmodel.cn/api/paas/v4"
+  # 温度参数(0-1, 越小越确定性)
+  temperature: 0.3
+  # 最大token数
+  max_tokens: 4096
+  # 超时时间(秒)
+  timeout: 60
+
+# AI功能开关
+features:
+  # 是否启用AI生成用例
+  generate_test_cases: true
+  # 是否启用AI生成PO代码
+  generate_po_code: true
+  # 是否启用AI生成测试脚本
+  generate_test_scripts: true
+  # 是否启用AI失败分析
+  failure_analysis: true
+  # 是否启用AI智能维护
+  auto_maintenance: true
+
+# AI生成配置
+generation:
+  # 生成用例时的默认语言
+  language: zh
+  # 是否包含边界场景
+  include_boundary: true
+  # 是否包含异常场景
+  include_exception: true
+  # 代码风格: pytest, unittest
+  code_style: pytest

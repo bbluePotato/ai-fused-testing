@@ -1,0 +1,48 @@
+# AI融合UI自动化测试框架 - 依赖包
+# 安装命令: pip install -r requirements.txt
+
+# ========== 核心测试框架 ==========
+pytest>=7.4.0
+pytest-playwright>=0.4.0
+playwright>=1.40.0
+pytest-xdist>=3.3.0
+pytest-rerunfailures>=12.0
+
+# ========== 报告生成 ==========
+allure-pytest>=2.13.0
+pytest-html>=4.1.0
+pytest-json-report>=1.5.0
+
+# ========== AI能力集成 ==========
+langchain>=0.1.0
+langchain-community>=0.0.10
+zhipuai>=2.0.0
+openai>=1.0.0
+
+# ========== 配置管理 ==========
+pyyaml>=6.0.1
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+
+# ========== 日志和工具 ==========
+loguru>=0.7.0
+click>=8.1.0
+colorama>=0.4.6
+tqdm>=4.66.0
+
+# ========== 数据处理和验证 ==========
+requests>=2.31.0
+jsonschema>=4.20.0
+faker>=20.0.0
+openpyxl>=3.1.0
+
+# ========== 代码质量 (可选) ==========
+# pytest-cov>=4.1.0
+# black>=23.0.0
+# flake8>=6.0.0
+# mypy>=1.7.0
+
+# ========== 开发工具 (可选) ==========
+# ipython>=8.18.0
+# jupyter>=1.0.0
+# notebook>=7.0.0

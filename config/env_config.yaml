@@ -1,0 +1,23 @@
+# 环境配置文件
+# SC Technology 网站自动化测试
+
+# 默认环境
+default_env: test
+
+# 测试环境
+test:
+  base_url: "https://bbluepotato.github.io/SCtechnology/"
+  timeout: 30
+  retry_count: 2
+
+# 预发环境
+staging:
+  base_url: ""
+  timeout: 30
+  retry_count: 2
+
+# 生产环境
+production:
+  base_url: ""
+  timeout: 60
+  retry_count: 3

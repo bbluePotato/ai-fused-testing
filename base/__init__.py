@@ -1,0 +1,6 @@
+"""
+基础层模块初始化
+"""
+from .base_page import BasePage
+
+__all__ = ['BasePage']
